@@ -23,6 +23,8 @@
   - the interdisciplinary nature of the field -- practical applications
   - bridging digital and human experiences
 
+- LEARN: skills and software
+
 - PROJECT EXAMPLE (showcase student work)'
   - video example
   - photo of work (x3, from each year)
@@ -69,7 +71,6 @@
   - copyright date
   - email sign-up: learn more about our program!
   - designed by: kim
-  - 
 
 
 

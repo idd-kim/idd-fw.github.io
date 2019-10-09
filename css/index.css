@@ -2,4 +2,20 @@ body {
 	background-color: blueviolet;
 }
 
-/* fer  */
+
+
+
+footer {
+	padding: 0.5em;
+	
+}
+
+
+.site-map {
+	background-color: yellow;
+}
+
+.social-bar {
+	background-color: orange;
+
+}
