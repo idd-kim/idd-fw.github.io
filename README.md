@@ -2,7 +2,7 @@
 - a new program homepage
 
 ## w2: developing content in-class ("meeting")
-### 11 sept 2019
+### 9 oct 2019
 
 #### important program info (admin content)
 - GBC logo, navbar sticky, menu ()
