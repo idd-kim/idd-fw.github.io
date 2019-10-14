@@ -1,21 +1,264 @@
-body {
-	background-color: blueviolet;
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap:400,400i,700,700i&display=swap');
+
+:root {
+	--sans: 'Karla', 'Helvetica', 'Arial', sans-serif;
+	--sans2: 'Asap', sans-serif;
+
+
+	--bg-pri: #00acc1;
+	--light-pri: #5ddef4;
+	--dark-pri: #007c91;
+
+	--bg-sec: #ffa000;
+	--light-sec: #ffd149;
+	--dark-sec: #c67100; 
+
+	--txtLink: #d23669;
+	--txt-pri: #1a1a1a;
+	--txt-blu: #311b92;
+	--txt-mid: #e1e2e1;
+
+	--inline-bg: rgba(255,229,100,0.2);
+	--shell: #fff;
+
 }
 
 
+body {
+	/* display: block; */
+	background-color: var(--shell);
+    color: rgba(0,0,0,0.9);
+    font-family: var(--sans);
+	font-weight: 400;
+	min-width: 320px;
+}
+head {
+	width: 100vw;
+}
+/* width: 100vw; */
 
+h1 {
+	color: var(--txtLink);
+	background-color: var(--inline-bg);
+	font-size: 1.9em;
+	font-weight: 700;
+	padding: 2em 1em;
 
-footer {
-	padding: 0.5em;
+}
+
+h2 {
+	background-color: var(--light-pri);
+	color: var(--txt-mid);
+	font-family: var(--sans2);
+}
+
+h3 {
+	padding: 1em;
+	text-align: center;
+	font-weight: 700;
 	
+}
+
+p {
+	color: var(--txt-blu);
+	padding: 0.6em; 
+	font-size: 0.9em;
+	line-height: 1.7em;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: var(--txtLink);
+	border-bottom: 2px solid;
+}
+
+.program-info {
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 100vw;
+}
+
+.mainmenu {
+	text-align: right;
+	padding: 0.6em 1em;
+	background-color: var(--dark-pri);
+}
+
+.horiz-nav > li {
+	display: inline-block;
+	list-style: none;
+	justify-content: center;
+	/* width: 100vw; */
+}
+.horiz-nav a {
+	text-align: center;
+	display: inline;
+}
+
+.nav-link {
+	color: var(--txt-mid);
+	font-size: 0.6em;
+	display: block;
+	padding: 7px;
+}
+
+.sec-title {
+	display: block;
+	background-color: var(--bg-pri);
+	padding: 1.5em;
+	font-family: var(--sans2);
+	font-weight: 700;
+	font-size: 1.3em;
+	text-align: center;
+
+}
+.sec-content {
+	background-color: var(--inline-bg);
+}
+
+.content-box {
+	background-color: var(--inline-bg);
+	/* top side */
+	padding: 2em 1.5em;
+}
+
+.college-title {
+	color: var(--txt-pri);
+	background-color: var(--light-sec);
+	text-align: right;
+	padding: 1em 1.5em;
+}
+
+.careers-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-size: 0.9em;
+	padding: 1.5em;
+
+}
+
+.careers-list {
+	display: inline-block;
+	padding: 1.5em;
+	list-style: disc;
+	font-size: 0.9em;;
+	text-align: left;
+}
+
+.placement {
+	text-align: left;
+	padding: 0.5em;
+}
+.placement-desc {
+	padding-top: 0.5em;
+
+}
+
+.design-school {
+	font-weight: 700;
+	padding: 0;
+}
+.des-cred {
+	color: var(--txtLink);
+	font-size: 0.75em;
+	text-align: center;
+	padding: 0.8em;
+
+}
+
+.idd-tag {
+	background-color: var(--bg-pri);
+	color: var(--txt-pri);
+	padding-right: 1.6em;
+	text-align: right;
+	
+}
+
+.des-skills, .dev-soft {
+	border-top: 1px solid var(--txt-mid);
+
+}
+
+.project-title {
+	border-top: 1px solid var(--txt-mid);
+	font-weight: 700;
+}
+
+.top-pg {
+	font-size: 0.9em;
+	font-weight: 700;
+}
+.top-pg-box {
+	padding-top: 1.5em;
+}
+
+.school-links {
+	list-style: none;
+	line-height: 1.5em;
+	/* padding-top: 0.5em; */
+}
+.school-links > li {
+	font-size: 0.9em;
+	padding: 0.5em 0;
+}
+
+blockquote {
+	margin:0;
+}
+blockquote p {
+	background-color: var(--txt-mid);
+	border-radius: 7px;
+}
+.s-author {
+	font-size: 0.9em;
+	font-weight: 700;
+	padding-top: 0.5em;
+}
+
+.student-ex {
+	padding: 0 0.5em;
+}
+
+cite {
+	font-style: italic;
+
+}
+footer {
+	padding: 2em;
+}
+
+.student-box {
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
 
 .site-map {
-	background-color: yellow;
+	background-color: var(--inline-bg);
 }
 
 .social-bar {
-	background-color: orange;
+	background-color: var(--inline-bg);
+	border-top: 1px solid var(--txt-mid);
+}
+.social-links {
+	text-align: center;
+}
+.school-links > li  > a{
+	color: var(--txt-pri)
+}
 
+@media screen and (min-width: 420px) {
+
+	.content-box {
+		background-color: white;
+	}
+	.student-box {
+		grid-template-columns: 1fr 1fr;
+	}
 }
