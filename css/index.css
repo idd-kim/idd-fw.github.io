@@ -285,6 +285,10 @@ footer {
 	padding: 0.5em 0;
 }
 
+.logo-gbc img {
+	max-width: 100px;
+}
+
 @media screen and (min-width: 420px) {
 
 	.content-box {
