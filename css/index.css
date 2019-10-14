@@ -3,7 +3,7 @@
 
 :root {
 	--sans: 'Karla', 'Helvetica', 'Arial', sans-serif;
-	--sans2: 'Asap', sans-serif;
+	--sans2: 'Asap', 'Arial', sans-serif;
 
 
 	--bg-pri: #00acc1;
