@@ -54,7 +54,7 @@ h2 {
 }
 
 h3 {
-	padding: 1em;
+	padding: 1.2em;
 	text-align: center;
 	font-weight: 700;
 	
@@ -62,7 +62,7 @@ h3 {
 
 p {
 	color: var(--txt-blu);
-	padding: 0.6em; 
+	padding: 0.8em 0.6em; 
 	font-size: 0.9em;
 	line-height: 1.7em;
 
@@ -74,11 +74,14 @@ em {
 
 a {
 	text-decoration: none;
+	color: var(--txt-blu);
 }
 
 a:hover {
-	background-color: var(--txtLink);
+	color: var(--light-sec);
+    background-color: var(--txtLink);
 	border-bottom: 2px solid;
+	padding: 0.7em 0.3em;
 }
 
 .program-info {
@@ -175,6 +178,11 @@ a:hover {
 
 }
 
+.des-icons, .dev-icons {
+	padding-top: 1em;
+	text-align: center;
+}
+
 .idd-tag {
 	background-color: var(--bg-pri);
 	color: var(--txt-pri);
@@ -193,6 +201,14 @@ a:hover {
 	font-weight: 700;
 }
 
+.project-ex-box {
+	display: grid;
+	grid-auto-columns: 1fr;
+}
+.pj-ex {
+	padding: 0.5em 0.3em;
+}
+
 .top-pg {
 	font-size: 0.9em;
 	font-weight: 700;
@@ -209,6 +225,9 @@ a:hover {
 .school-links > li {
 	font-size: 0.9em;
 	padding: 0.5em 0;
+}
+.school-links >li > a {
+	color: var(--txt-pri);
 }
 
 blockquote {
@@ -241,6 +260,9 @@ footer {
 	grid-template-columns: 1fr;
 }
 
+.top-banner-img img{
+	width: 100vw;
+}
 
 .site-map {
 	background-color: var(--inline-bg);
@@ -253,8 +275,10 @@ footer {
 .social-links {
 	text-align: center;
 }
-.school-links > li  > a{
-	color: var(--txt-pri)
+
+.school-links > li > a:hover {
+	color: var(--light-sec);
+	padding: 0.5em 0;
 }
 
 @media screen and (min-width: 420px) {
@@ -263,6 +287,9 @@ footer {
 		background-color: white;
 	}
 	.student-box {
+		grid-template-columns: 1fr 1fr;
+	}
+	.project-ex-box {
 		grid-template-columns: 1fr 1fr;
 	}
 }
