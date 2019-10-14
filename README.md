@@ -16,19 +16,19 @@
     - apply now button
 
 #### FEATURES (what is the program selling and attracting?)
-- About: Overview of Interaction Design and Program Outcomes (Why take this program? What is the goal of this program?)
+- **About**: **Overview** of Interaction Design and Program Outcomes (Why take this program? What is the goal of this program?)
   - a combination of coding, design, user experience and graphical interfaces
   - develop meaningful experiences across platforms (digital, mixed media, mobile)
   - the interdisciplinary nature of the field -- practical applications
   - bridging digital and human experiences
 
-- LEARN: skills, software, relevant course info
+- **LEARN**: skills, software, relevant course info
 
-- PROJECT EXAMPLES (showcase student work)'
+- **PROJECT EXAMPLES** (showcase student work)'
   - photo of work (x3, from each year)
   - one sentence blurb about project
 
-- OUR STUDENTS (What will you be doing at school? Skillset and programs/software/technology):
+- **OUR STUDENTS** (What will you be doing at school? Skillset and programs/software/technology):
   - teamwork: collaborate on projects -- engage in research and testing cycle
   - understand the design process and best practices
   - understand how systems interact -- iterative processes
@@ -39,7 +39,7 @@
     - Testimonial: quote about her experience at GBC, IDD
     - unsplash photo
 
-- CAREER PATHS:
+- **CAREER PATHS**:
   - Mobile Developer/Designer
   - Web Developer/Designer
   - Interaction/Multimedia Designer
